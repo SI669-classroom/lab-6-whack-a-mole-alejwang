@@ -19,7 +19,7 @@ export class MoleHole {
     }
 
     showMole(duration) {
-        // If the mole is already out, 
+        // If the mole is already out,
         if(this.moleState === 0) {
             this.moleState = 1;
             let that = this;
